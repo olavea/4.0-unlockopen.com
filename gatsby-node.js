@@ -1,10 +1,12 @@
-const path = require(`path`)
-const { createFilePath } = require(`gatsby-source-filesystem`)
+const path = require(`path`);
+const { createFilePath } = require(`gatsby-source-filesystem`);
 
 exports.createPages = ({ graphql, actions }) => {
-  const { createPage } = actions
+  const { createPage } = actions;
 
-  const pageTemplate = path.resolve(`./src/templates/page.js`)
+  const pageTemplate = path.resolve(`./src/templates/page.js`);
+  // Why not const result = await like in
+  //https://www.gatsbyjs.org/tutorial/part-seven/#creating-pages
   return graphql(
     `
       {
@@ -21,35 +23,38 @@ exports.createPages = ({ graphql, actions }) => {
     `
   ).then(result => {
     if (result.errors) {
-      throw result.errors
+      throw result.errors;
     }
 
     // Create blog posts pages.
-    const posts = result.data.allMarkdownRemark.edges
+    const posts = result.data.allMarkdownRemark.edges;
 
     posts.forEach(post => {
       createPage({
         path: post.node.fields.slug,
         component: pageTemplate,
         context: {
-          slug: post.node.fields.slug,
-        },
-      })
-    })
+          slug: post.node.fields.slug
+        }
+      });
+    });
 
-    return null
-  })
-}
+    return null;
+  });
+};
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions
+  const { createNodeField } = actions;
 
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
+    const value = createFilePath({ node, getNode });
     createNodeField({
       name: `slug`,
       node,
-      value,
-    })
+      value
+    });
   }
-}
+};
+
+// Why not       value: slug, Like in :
+// https://www.gatsbyjs.org/tutorial/part-seven/#creating-slugs-for-pages

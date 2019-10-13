@@ -1,67 +1,34 @@
-# Hello there,
+---
+bio: true
+---
 
-I create robust **web apps** and **Gatsby plugins**.
+**Open source is everywhere.** It's in your phone and in your car. It's flying satellites to orbit and helping cure diseases. It's powering today's economy. Latest survey finds it in 96% of code bases, in which it represents more than half of the lines of code.
 
-Roughly half the year I work as an **independent contractor**. The rest of my time I spend on **family**, **learning**, **speaking** and **open source**.
+And yet… whereas every company uses it, few contribute back.
 
-My full name is Benedicte Raae.  
-My location is Rodeløkka, Oslo, Norway.
+And so we hear of resource-strapped projects, security concerns, maintainer burnout, and sustainability issues. There's even a conference specifically about the latter.
 
-## POW! - take charge of your menstrual cycle
+But what initially seems like a tragedy of the commons is actually a **gigantic opportunity**. There is more to contributing to open source than "doing the right thing" or "paying it forward."
 
-Creating a menstrual tracker app has been in the back of my mind for years. First, because I wanted something more straightforward and flexible, then later the lack of privacy afforded by existing apps got me curious about encryption.
+Why do you think Microsoft spent $7.5B on GitHub, beating Google to the punch?
 
-While researching my talk, "A privacy first web-based period tracker? Is it even possible?" I came across the Blockstack framework and jumped on the opportunity to participate in their "Can't be evil"-competition.
+Or why did IBM buy Red Hat for $34B?
 
-So this fall, I launched POW! in open beta.
+Contributing to open source has **strategic benefits** that tech giants are well aware of.
 
-My goal is to celebrate International Women's Day (March 8th, 2020) with a robust version 1.
+First, contributing to open source is critical to **recruit, retain, and foster top engineering talent**.
+Facebook claims that 75% of their new engineering recruits mention its open source program as a key reason to join the company.
+Similarly, a relatively modest investment in Webpack helped the hotel price comparison company Trivago position itself as _"one of the most interesting companies to work for as a JavaScript developer,"_ and hire _"a lot of really great engineers,"_ according to their Lead JavaScript Architect, Patrick Gotthardt.
 
-- [POW!](https://www.usepow.app/)
-- [GitHub](https://github.com/raae/pow-app)
+Secondly, contributing to open source has proven to be **a catalyst to attract developers to software platforms and services**.
+Still wondering why Microsoft or IBM spent billions on companies based around open source? Wonder no longer.
+Both are hoping to capitalize on these to generate developer goodwill and onramp developers onto their paid offerings once they need scale and reliability.
+Even AWS is feeling the heat of this intense competition for developer mindshare and has started to up its open source contribution game.
+You might not be fighting for mindshare in the cloud wars, but if your offering includes anything developers might need to integrate, how you're perceived in relation to open source might make or break your service offering.
 
-## @raae/gatsby-remark-oembed
+Thirdly, it is increasingly demonstrated that teams that contribute to open source **gain a net competitive advantage** over teams that don't.
 
-In the fall of 2018 I released my first open source project. Its been a blast with contribution already from Thailand, Canada and the UK.
+At the individual level, engineers improve both their technical abilities and their soft skills. They build external networks they can tap into to help them solve work-related problems or recruit new team members. At the team level, this translates into increased efficiencies, with **open source contributing teams twice(!) as efficient as freeloading ones**, according to new research by Harvard Business School. And at the organisation level, this leads to better public perception, improved company culture, higher employee morale, and lower churn.
 
-The project is a plugin for GatsbyJS that lets you embed content from Twitter, CodePen, YouTube, Instagram, SoundCloud and more using the oembed protocol.
+What's not to like?
 
-- [GitHub](https://github.com/raae/gatsby-remark-oembed)
-- [NPM](https://www.npmjs.com/package/@raae/gatsby-remark-oembed)
-- [Example page](https://gatsby-remark-oembed.netlify.com/)
-
-## Speaking
-
-In 2019 I <del>would like to get</del> have gotten serious about speaking!
-
-This fall I will be speaking at [Javazone](https://2019.javazone.no/program/15cea85e-03ca-4929-a6b3-fdb91558c24f), [JSConf Budapest](https://jsconfbp.com/speakers/benedicte_raae/), [RuhrJS](https://ruhrjs.de/speakers/benedicte-raae) and Mobile Era. The talk is titled "A privacy first web based period tracker? Is it even possible?". You can [follow my journey there](https://twitter.com/i/moments/1130526382541479936) on Twitter. I do a live broadcast every Monday.
-
-At the end of May I was a guest on [Gatsby's webinar about plugins](https://youtu.be/QIhrbJcqKu4?t=1631). I talked about my experience creating @raae/gatsby-remark-oembed.
-
-Topics I have knowledge about include: Apps (both native, hybrid and web), the JAMStack (Gatsby - Netlify - Stripe), Creating an open source project, Building MVPs in record time, Structured content, Learning through side projects and the oEmbed protocol.
-
-If you need someone to give a talk or conduct a workshop on any of these topics [let me know](mailto://raae@raae.codes).
-
-- [Gatsby Webinar Recording](https://youtu.be/QIhrbJcqKu4?t=1631)
-- [Mobile Era 2017 Recording](https://vimeo.com/240808361)
-- [Smidigkonferansen 2013 Recording](https://vimeo.com/78634060)
-
-## Client work
-
-I have been working as an independent contractor since 2010. These days I focus on making web apps with a visualization component.
-
-I have experience with a myriad of technologies, but these days I focus on **React**, **Gatsby** and **D3**.
-
-Currently I am creating a web app for Thales to help monitor and visualize tactical defense networks.
-
-From the fall of 2013 to the spring of 2019 I made and maintained the Varsom app for The Norwegian Water Resources and Energy Directorate. First as a native iOS app, but later as a hybrid app on both Android and iOS.
-
-I am available for long term 60% contracts from the fall of 2020, preferably as part of a remote first team.
-
-- [LinkedIn](https://www.linkedin.com/in/benedicteraae/)
-
-## Let's be Interwebz friends
-
-You can find me on [Twitter](https://twitter.com/raae), [Instagram](https://instagram.com/raae.codes) and [GitHub](https://github.com/raae).
-
-My email is [raae@raae.codes](mailto:raae@raae.codes) and you can even sign up for my [newsletter](https://tinyletter.com/raae).
