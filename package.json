@@ -20,12 +20,14 @@
     "gatsby-plugin-sharp": "^2.2.29",
     "gatsby-remark-embed-video": "^2.0.0",
     "gatsby-source-filesystem": "^2.1.31",
+    "gatsby-source-youtube": "^1.0.1",
     "gatsby-transformer-remark": "^2.6.28",
     "gatsby-transformer-sharp": "^2.2.21",
     "lodash": "^4.17.15",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "youtube-playlist-info": "^1.1.2"
   },
   "devDependencies": {
     "prettier": "^1.18.2"

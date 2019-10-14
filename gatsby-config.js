@@ -79,6 +79,14 @@ module.exports = {
         ]
       }
     }
+    // {
+    //   resolve: `gatsby-source-youtube`,
+    //   options: {
+    //     channelId: "UCbY4GWNKkfrn1tCmwP0qKhg",
+    //     apiKey: "AIzaSyCsKt8bjBGnQMaqjvz4F9mOCMpX0QLYHQ4",
+    //     maxVideos: 50 // Defaults to 50
+    //   }
+    // }
 
     // Note: if you also rely on gatsby-remark-responsive-iframe, you have to define the embed-youtube plugin first:
 
@@ -88,3 +96,8 @@ module.exports = {
     // ]
   ]
 };
+
+// Is same? Looks same.
+// UCbY4GWNKkfrn1tCmwP0qKhg
+// UCK8sQmJBp8GCxrOtXWBpyEA
+// <<Youtube channelID eg. UCK8sQmJBp8GCxrOtXWBpyEA >>
